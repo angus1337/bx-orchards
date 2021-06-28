@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: url(./images/apple-orchard-web.jpg) no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-weight: lighter;
+      
+}
+
+@media only screen and (max-width: 500px) 
+{
+    label {
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        background-color: ghostwhite;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    #logo {
+        display: none;
+    }
+    #toggle
+    {
+        background-color: ghostwhite;
+    }
+}
+
+.dataGrid {
+  background-color: ghostwhite;
+  width: 100%;
+  display: "flex";
+}
+
+h1 {
+    text-align: center;
+    color: ghostwhite;
+    text-decoration: underline;
+    text-decoration-color: ghostwhite;
+    font-weight: lighter;
+    background: slategrey;
+    letter-spacing: 0.25rem;
+}
+
+h2, p, a
+{
+    color: slategray;
+    text-align: center;
+    font-weight: lighter;
+}
+h2
+{
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    font-size: 3rem;
+    background: ghostwhite;
+    width: fit-content;
+    display: inline-block;
+    border-radius: 25px;
+    letter-spacing: 0.2rem;
+ }
+
+.icon_img
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+footer
+{
+    border-top: 1px solid black;
+}
+
+.footnav a
+{
+    text-decoration: none;
+    color: slategray;
+}
+
+.footnav a:hover {
+    color: burlywood;
+    transition-duration: 0.35s;
+    text-decoration: none;
+}
+
+.menu {
+  background-color: ghostwhite;
+}
+
+.menu a {
+  text-decoration: none;
+  color: gray;
+  margin: 0 1rem;
+  line-height: 3rem;
+}
